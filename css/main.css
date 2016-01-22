@@ -53,8 +53,8 @@ body {
 }
 
 .time {
- position: relative;
- top: .125em;
+ position: absolute;
+ bottom: 0.55em;
 }
 
 .time-bar {
