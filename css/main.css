@@ -64,11 +64,12 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
-  width: 1208px;
+  width: 980px;
   position: absolute;
-  left: 4.5em;
+  right: 0;
+  left: 3.5em;
   bottom: 0;
-  top: 1.65em;
+  top: 0.55em;
 }
 
 /*
@@ -88,10 +89,16 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  left: 5.65em;
+  bottom: 0;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  right: .5em;
+  bottom: 0;
 }
 
 .controls {
